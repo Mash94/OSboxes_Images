@@ -20,6 +20,7 @@ passwd root
 ```  
 sudo usermod -l <newname> -d /home/<newname> -m <oldname>
 ```
+## OpenCV
 ```
 sudo apt update
 sudo apt install python3-opencv
@@ -28,4 +29,14 @@ sudo apt install python3-opencv
 python3 -c "\
 import cv2
 print(cv2.__version__)"
+```
+## Visual Code
+
+```
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
 ```
