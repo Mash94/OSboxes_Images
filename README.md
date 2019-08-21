@@ -6,13 +6,17 @@ Press SHIFT
 
 Recovery Mode
 Root
-
+```
 mount -o remount,wr /
-
+```
+```
 passwd <username>
-  change it
-  
+```
+change it
+```
 passwd root
+```
   change it
-  
+```  
 sudo usermod -l <newname> -d /home/<newname> -m <oldname>
+```
