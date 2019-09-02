@@ -1,15 +1,13 @@
-# OSboxes_Images and Ubuntu 18.04
+# My Ubuntu list commands
+## Change Root Password
 A little list of steps to follow to change some important parameters as UserName, password user, password root
-
-Press F12
-Press SHIFT
-
+  Press F12
+  Press SHIFT
+  
 Recovery Mode
-Root
+  Root
 ```
 mount -o remount,wr /
-```
-```
 passwd <username>
 ```
 change it
