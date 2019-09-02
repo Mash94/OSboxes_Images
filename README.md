@@ -1,4 +1,4 @@
-# My Ubuntu list commands
+# My Ubuntu command list
 ## Change Root Password
 A little list of steps to follow to change some important parameters as UserName, password user, password root
   Press F12
