@@ -40,3 +40,30 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 sudo apt update
 sudo apt install code
 ```
+## Installing pip for Python 3
+
+Ubuntu 18.04 ships with Python 3, as the default Python installation. Complete the following steps to install pip (pip3) for Python 3:
+
+Start by updating the package list using the following command:
+```
+sudo apt update
+```
+Use the following command to install pip for Python 3:
+```
+sudo apt install python3-pip
+```
+The command above will also install all the dependencies required for building Python modules.
+Once the installation is complete, verify the installation by checking the pip version:
+```
+pip3 --version
+```
+## Jupyter Notebook
+```
+python3 -m pip install --upgrade pip
+python3 -m pip install jupyter
+```
+### Run Jupyter
+
+```
+jupyter notebook
+```
