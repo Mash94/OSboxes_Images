@@ -1,4 +1,4 @@
-# OSboxes_Images
+# OSboxes_Images and Ubuntu 18.04
 A little list of steps to follow to change some important parameters as UserName, password user, password root
 
 Press F12
